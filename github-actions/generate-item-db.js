@@ -46,19 +46,6 @@ db[601251] = {
 
 const locales = [
     "us",
-    "de",
-    "fr",
-    "ru",
-    "es",
-    "sp",
-    "pt",
-    "jp",
-    "kr",
-    "cn",
-    "tw",
-    "th",
-    "tr",
-    "id"
 ];
 let totalDone = 0;
 
@@ -106,32 +93,10 @@ scrape(locales[0]);
 const regions = [
     "na",
     "eu",
-    "sea",
-    "console_eu",
-    "console_na",
-    "console_asia",
-    "mena",
-    "sa",
-    "kr",
-    "ru",
-    "jp",
-    "th",
-    "tw"
 ];
 const regionLinks = {
     eu: "https://eu-trade.naeu.playblackdesert.com/Trademarket/GetWorldMarketList",
     na: "https://na-trade.naeu.playblackdesert.com/Trademarket/GetWorldMarketList",
-    sea: "https://trade.sea.playblackdesert.com/Trademarket/GetWorldMarketList",
-    console_eu: "https://eu-trade.console.playblackdesert.com/Trademarket/GetWorldMarketList",
-    console_na: "https://na-trade.console.playblackdesert.com/Trademarket/GetWorldMarketList",
-    console_asia: "https://asia-trade.console.playblackdesert.com/Trademarket/GetWorldMarketList",
-    mena: "https://trade.tr.playblackdesert.com/Trademarket/GetWorldMarketList",
-    sa: "https://blackdesert-tradeweb.playredfox.com/Trademarket/GetWorldMarketList",
-    kr: "https://trade.kr.playblackdesert.com/Trademarket/GetWorldMarketList",
-    ru: "https://trade.ru.playblackdesert.com/Trademarket/GetWorldMarketList",
-    jp: "https://trade.jp.playblackdesert.com/Trademarket/GetWorldMarketList",
-    th: "https://trade.th.playblackdesert.com/Trademarket/GetWorldMarketList",
-    tw: "https://trade.tw.playblackdesert.com/Trademarket/GetWorldMarketList"
 };
 
 const scrapeCategories = async (region, category, subcategories) => {
